@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #5927AB, #0A3695);
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  max-height: 100vh;
+  padding: 10px 50px;
+  max-width: 100vw;
+}
+
+.nome {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: black;
+}
+
+.cargo {
+  color: rgb(164, 164, 164);
+  border-bottom: 5px dotted #24cad9;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container ul li {
+  margin: 0.3rem 0;
+  color: rgba(180, 180, 180, 0.85);
+}
+
+.contato {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.contato ul li img {
+  width: 30px;
+  margin: 0 0.5rem;
+}
